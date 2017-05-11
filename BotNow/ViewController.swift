@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let alert = UIAlertView()
+        alert.message = "shehata gamal mahmoud"
+        alert.addButton(withTitle: "OK")
+        alert.show()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
